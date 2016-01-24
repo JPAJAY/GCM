@@ -75,8 +75,7 @@ public class Schedule extends AppCompatActivity {
             PendingIntent pendingIntent = PendingIntent.getBroadcast(
                     this.getApplicationContext(), 234324243, intent, 0);
             AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-            alarmManager.set(AlarmManager.RTC_WAKEUP,
-                    + (diffMinutes *60000), pendingIntent);
+            alarmManager.set(AlarmManager.RTC_WAKEUP,Calendar.MINUTE+diffMinutes, pendingIntent);
             Toast.makeText(this, "Alarm set in " + diffMinutes + " Minutes",
                     Toast.LENGTH_LONG).show();
 

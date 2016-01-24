@@ -66,4 +66,4 @@
         android:layout_alignBottom="@+id/start"
         android:gravity="center_horizontal" />
 </RelativeLayout>
-<!-- From: file:/E:/Android-projects/gcm/app/src/main/res/layout/schedule.xml -->
+<!-- From: file:/E:/Android-projects/GCM/app/src/main/res/layout/schedule.xml -->
